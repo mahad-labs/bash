@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Today is :" $(date)
+
+sleep 2
+
+#asks for user's name and executes if statement
+echo "What is your name? "
+read name
+
+if [ $name == Mahad ]; then
+      echo "Your name is Mahad"
+elif [ $name != Mahad ]; then
+      echo "You are not Mahad"
+fi
